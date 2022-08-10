@@ -10,6 +10,16 @@ const Usuario = db.define("Usuario",
         primaryKey: true,
         autoIncrement: true
       },
+
+      nome: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+
+      data_nascimento: {
+        type: Sequelize.DATEONLY,
+        allowNull: false
+      },
          
         email: {
         type: Sequelize.STRING,
@@ -26,7 +36,7 @@ const Usuario = db.define("Usuario",
         type: Sequelize.STRING,
         allowNull: false
       }
-   }
+  }
 );
 
 module.exports = Usuario;
