@@ -16,7 +16,7 @@
     <p>Para hospedagem do banco de dados do sistema foi utilizado o Heroku, que é uma plataforma como serviço (PaaS) que possibilita a criação, execução e operação de aplicativos na nuvem.</p>
     <li>OAuth 2.0</li>
     <p>Para que a máquina do cliente se autentique no sistema, foi utilizado o protocolo de autorização OAuth 2.0, que permite que uma aplicação faça autenticação em outra. Dessa forma, o sistema desenvolvido pede a permissão de acesso ao usuário, sem que para isso tenha acesso a alguma senha dele</p>
-    <li>Express.j</li>
+    <li>Express.js</li>
     <p>Para que a API da aplicação funcionasse de maneira eficaz, foi utilizado o framework Express para construir o sistema de rotas e gerenciar as requisições HTTP. O Express funciona através de funções de Middlewares, que possuem acesso ao objeto da requisição feita pelo cliente (req), o objeto de resposta gerado pelo servidor (res), e a próxima função de middleware do ciclo req-res da aplicação. </p>
     <li>JSON Web Token (JWT)</li>
     <p> Para realizar a autenticação das requisições entre o cliente e o servidor, foi utilizado o JWT (JSON Web Token), esse processo ocorre por meio de um token assinado que autentica a requisição. Quando os dados enviados pela requisição do cliente forem autenticados no servidor, é gerado um token JWT assinado com um segredo interno da API e enviado de volta ao cliente. Ele é assinado como uma hash gerada por uma função presente no back end que guarda o segredo-chave interno da API da aplicação do projeto. Após isso, a hash é enviada de volta ao cliente, uma vez que o token e a assinatura sejam idênticos, podemos permitir o acesso do cliente a uma área restrita da nossa aplicação. </p>
@@ -28,7 +28,7 @@
     <p>Para começar a utilizar o repositório é preciso realizar uma clonagem e baixar em sua máquina.</p>
 
 <h3>Instalações:</h3>
-<p>Para que o Back-end funcione de maneira adequada é necessário realizar a instalação de algumas ferramentas através do terminal. Para realizar esse processo, utilizamos o comando "npm install "oque deseja instalar"</p>
+<p>Para que o Back-end funcione de maneira adequada é necessário realizar a instalação de algumas ferramentas através do terminal. Para realizar esse processo, utilizamos o comando npm install "oque deseja instalar"</p>
 
 <h2>Segue a lista das instalações necessárias</h2>
 
