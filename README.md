@@ -2,6 +2,7 @@
             Construção de uma API de CRUD de usuários com Node.js e a biblioteca express.
 
 <h3>Ferramentas utilizadas:<h3>
+
 <ul> 
     <li>Node.js</li>
     <p>Para o desenvolvimento do código-fonte do back end foi utilizado o framework Node.js</p>
@@ -23,7 +24,7 @@
 
 <h3>Como começar a utilizar o repositório:</h3>
     <p>Para começar a utilizar o repositório é preciso realizar uma clonagem e baixar em sua máquina.</p>
-    
+
 <h3>Instalações:</h3>
 <p>Para que o Back-end funcione de maneira adequada é necessário realizar a instalação de algumas ferramentas através do terminal. Para realizar esse processo, utilizamos o comando "npm install "oque deseja instalar"</p>
 
